@@ -2,12 +2,6 @@
 
 **BulkImgPDF** is a lightweight Python script tailored for efficiently addressing specific conversion needs. While not aspiring to be a comprehensive project, this utility serves a focused purpose: seamlessly converting diverse image assortments, meticulously organized within numerous subfolders, into coherent and organized series of PDF files.
 
-## Key Features
-
-- **Simplicity in Action**: Designed with a straightforward approach, BulkImgPDF excels in tasks where the conversion of various image files into consolidated PDFs is paramount.
-
-- **Task-Centric Efficiency**: The script is particularly useful for tasks like converting manga chapters, spread across disparate image files residing within individual folders, into a more unified and accessible PDF format.
-
 ## How to Use
 
 1. **Organized Root Folder**: Ensure that the root folder contains multiple subfolders, each housing distinct sets of images to be converted.
