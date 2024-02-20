@@ -3,7 +3,7 @@ import subprocess
 
 def convert_images_to_pdf(image_folder):
     image_files = [f for f in os.listdir(image_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.webp'))]
-    image_files.sort(key=lambda x: x.split('.')[0])
+    image_files.sort(key=lambda x: int(x.split('.')[0]))
     
     pdf_filename = os.path.basename(image_folder) + '.pdf'
     
